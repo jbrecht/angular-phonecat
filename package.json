@@ -5,6 +5,17 @@
   "description": "A tutorial application for AngularJS",
   "repository": "https://github.com/angular/angular-phonecat",
   "license": "MIT",
+  "dependencies": {
+    "@angular/common": "5.2.0",
+    "@angular/compiler": "5.2.0",
+    "@angular/core": "5.2.0",
+    "@angular/forms": "5.2.0",
+    "@angular/http": "5.2.0",
+    "@angular/platform-browser": "5.2.0",
+    "@angular/platform-browser-dynamic": "5.2.0",
+    "@angular/router": "5.2.0",
+    "@angular/upgrade": "5.2.9"
+  },
   "devDependencies": {
     "@types/angular": "^1.6.43",
     "@types/angular-animate": "^1.5.9",
@@ -22,7 +33,9 @@
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
     "protractor": "^4.0.9",
-    "typescript": "^2.8.3"
+    "rxjs": "5.5.6",
+    "typescript": "^2.8.3",
+    "zone.js": "0.8.26"
   },
   "scripts": {
     "postinstall": "bower install",
